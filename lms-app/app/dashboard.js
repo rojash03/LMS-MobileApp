@@ -39,7 +39,6 @@ export default function LibraryDashboard() {
         </View>
       </View>
 
-      {/* Stats Cards */}
       <View className="flex-row flex-wrap justify-between px-6  mt-4 mb-6">
         <View className="bg-white p-4 rounded-xl shadow-sm w-[48%] mb-4">
           <Text className="text-gray-600">Total Books</Text>
@@ -77,7 +76,6 @@ export default function LibraryDashboard() {
           ))}
         </View>
 
-        {/* Recent Activity */}
         <View className="bg-white rounded-xl p-6 shadow-sm mt-4">
           <Text className="text-lg font-semibold text-gray-800 mb-3">
             Recent Activity

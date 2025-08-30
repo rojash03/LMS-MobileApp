@@ -29,8 +29,7 @@ export default function Home() {
         </TouchableOpacity>
       </View>
 
-      {/* Cards Section */}
-      {/* Card 1 */}
+    
       <View className="flex-row px-4 pb-10">
         <View className="bg-white p-4 rounded-2xl border border-gray-200 shadow-md w-32 items-center mr-4">
           <Text className="text-5xl mb-2">📚</Text>
@@ -41,7 +40,6 @@ export default function Home() {
             Explore a world of books.
           </Text>
         </View>
-        {/* Card 2 */}
         <View className="bg-white p-4 rounded-2xl border border-gray-200 shadow-md w-32 items-center mr-4">
           <Text className="text-5xl mb-2">🔄</Text>
           <Text className="text-lg font-bold text-blue-600 text-center">
@@ -51,7 +49,6 @@ export default function Home() {
             Manage your book loans and returns easily.
           </Text>
         </View>
-        {/* Card 3 */}
         <View className="bg-white p-4 rounded-2xl border border-gray-200 shadow-md w-32 items-center">
           <Text className="text-5xl mb-2">🌟</Text>
           <Text className="text-lg font-bold text-green-600 text-center">
